@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Parallax Framework</title>
+	<link rel="stylesheet" href="styles/main.css" type="text/css">
+</head>
+<body>
+	<div id="scroll"></div>
+
+	<div id="scene1">
+		<div id="diag"
+			data-start="transform: rotate(-45deg);"
+			data-1000-start="transform: rotate(-360deg); top: -50vh"
+			data-1500-start="top: -100vh"
+		></div>
+		
+	</div>
+	
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/skrollr.min.js"></script>
+	<script>
+		var s = skrollr.init();
+	</script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>
